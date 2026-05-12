@@ -1,5 +1,6 @@
 # PE-loader
-Manually load a `.exe` file, ~150 loc. This was made out of boredom, nothing too serious so I won't touch this code again.
+Manually load a `.exe` file, ~150 loc. Somehow it's capable of launching PE-bear, not so sure about heavy multi-threaded app.
+This was made out of boredom, nothing too serious.
 
 # Usage
 
