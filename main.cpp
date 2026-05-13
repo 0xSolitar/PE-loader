@@ -147,5 +147,7 @@ int main(int argc, char* argv[]) {
     EntryPointFunc entryPoint = (EntryPointFunc)entryPointAddr;
     entryPoint();
 
+    VirtualFree(ImageBaseAddr, 0, MEM_RELEASE);
+    free(buffer);
     return 0;
 }
